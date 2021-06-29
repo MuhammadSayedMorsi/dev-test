@@ -1,6 +1,6 @@
 import React from "react";
 import LogoIcon from "../images/footer-logo.png";
-import Linkdin from "../images/linkdin.svg";
+import LinkdinLogo from "../images/linkdin-logo.svg";
 import Xero from "../images/xero.svg";
 export default function Footer() {
   return (
@@ -43,7 +43,7 @@ export default function Footer() {
             Tel 8000 0000
           </p>
           <a className="block bg-coral mt-30">
-            <img src={Linkdin} alt="Linkdin" />
+            <img src={LinkdinLogo} alt="Linkdin logo" />
           </a>
         </div>
         <div className="pt-190">
